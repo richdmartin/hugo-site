@@ -21,7 +21,7 @@ googleAnalytics = "" #put your google-analytics ID here
     href = "#first"
 
   [[params.navigation]]
-    name = "About"
+    name = "Statistics"
     href = "#second"
 
   [[params.navigation]]
