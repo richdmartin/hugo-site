@@ -1,0 +1,169 @@
+# Site settings
+baseurl = "https://richdmartin.me/"
+languageCode = "en-us"
+title = "Richard Martin"
+theme = "hugo-stellar-theme"
+
+googleAnalytics = "" #put your google-analytics ID here
+
+[params]
+  [params.header]
+    title = "Richard Martin"
+    description = 'Web Design, IT Service and Project Management'
+    image = "images/logo.svg"
+
+  [[params.navigation]]
+    name = "Introduction"
+    href = "#intro"
+
+  [[params.navigation]]
+    name = "Services"
+    href = "#first"
+
+  [[params.navigation]]
+    name = "About"
+    href = "#second"
+
+  [[params.navigation]]
+    name = "Get Started"
+    href = "#cta"
+
+  [params.intro]
+    title = "Hello, I'm Richard"
+    description = "I'm a college student interested in business and computers. I enjoy web design, but I hope to one day own my own business and develop applications and products that make everyone's life a little easier, more comfortable, and more enjoyable."
+    image = "images/pic01.jpg"
+    
+	# [[params.intro.action]]
+    # buttontext = "Learn More"
+    # href = "generic.html"
+
+
+  [[params.section]]
+    id = "first"
+    title = "Services"
+    description = ""
+    
+    # the picture is storead at static/images/
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "Web Development"
+        description = "I am fairly well-versed in HTML and CSS, but am currently working with Hugo to develop and generate one-page websites."
+        icon = "fa-code"
+
+      [[params.section.feature]]
+        title = "Project Management"
+        description = "I have a year's experience in project management for residential clients. Whether it's technology, household projects, or an idea you'd like to develop, I can help you get it done."
+        icon = "fa-ticket"
+
+      [[params.section.feature]]
+        title = "Tech Support"
+        description = "With over two years of experience with computers, I can help with most problems you may face when using one. Whether it's virus removal, data migration, or phone repair, consider it done."
+        icon = "fa-desktop"
+		
+		[[params.section.feature]]
+        title = "Smart Homes"
+        description = "Imagine getting home, and your favorite song playing when you walk in. The AC is right where you like it, and your lights turn on when as you walk through each room. I am experienced setting up smart homes, and would love to get yours started."
+        icon = "fa-home"
+		
+    [params.section.footer]
+      enable = false
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+
+  [[params.section]]
+    id = "second"
+    title = "Statistics"
+    description = "Talk is cheap, so let me show you what I've done."
+
+    [params.section.statistics]
+      enable = true
+      [[params.section.statistic]]
+        icon = "fa-code"
+        value = "3"
+        text = "Websites Developed"
+      [[params.section.statistic]]
+        icon = "fa-ticket"
+        value = "201"
+        text = "Tickets Handled"
+      [[params.section.statistic]]
+        icon = "fa-desktop"
+        value = "152"
+        text = "Computers Fixed"
+      [[params.section.statistic]]
+        icon = "fa-home"
+        value = "2"
+        text = "Smart Homes Set Up"
+
+    [params.section.content]
+      enable = true
+      text = "Some of my work is freelance, primarily when web development is involved. However, I spent years at two companies, Neighborhood Nerds in Knoxville and Structured Solutions in Oak Ridge and Johnson City working on computers, projects, and smart homes. I am working on my A+, Network+, and Security+ certifications so that I can provide you with top-level service, but I am still capable of handling most IT issues, and am currently working on creating a smart home company to handle the integration of smart home devices in your home."
+
+    [params.section.footer]
+      enable = false
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+
+
+  [[params.section]]
+    id = "cta"
+    title = "Contact Me"
+    description = "Get in touch with me and let me know what you need. I am happy to discuss any projects that you are interested in, and am driven to make your goals a reality."
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Get Started"
+        buttonUrl = "mailto:projects@richdmartin.me"
+        customClass = "special"
+      # [[params.section.footer.action]]
+      #  buttontext = "Learn More"
+      #  buttonUrl = "generic.html"
+
+  [params.footer]
+    enable = true
+    title = ""
+    description = ""
+
+    second_title = "Contact Information"
+    phone = "(423) 491-5161"
+    email = "projects@richdmartin.me"
+
+    # [[params.footer.action]]
+    #  href = "generic.html"
+    #  buttontext = "Learn More"
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        link = "https://twitter.com/RichDMartin"
+
+      [[params.footer.social]]
+        title = "Facebook"
+        icon = "fa-facebook"
+        link = "https://www.facebook.com/richard.martin.3538"
+
+      [[params.footer.social]]
+        title = "Instagramm"
+        icon = "fa-instagram"
+        link = "https://www.instagram.com/richarthanyou/"
+		
+	  [[params.footer.social]]
+        title = "Phone"
+        icon = "fa-phone"
+        link = "tel:423-491-5161"
+
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fa-envelope"
+        link = "mailto:mail@richdmartin.me"
+
+    # copyright
+    [params.footer.copyright]
+      enable = true
+      text = "© Untitled, Design: [HTML5UP](//html5up.net)"
